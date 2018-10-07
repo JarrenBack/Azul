@@ -321,7 +321,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1200493306}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 355, y: 152.5, z: 0}
+  m_LocalPosition: {x: 355, y: 186, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2135400585}
@@ -424,6 +424,8 @@ GameObject:
   - component: {fileID: 2135400588}
   - component: {fileID: 2135400587}
   - component: {fileID: 2135400586}
+  - component: {fileID: 2135400589}
+  - component: {fileID: 2135400590}
   m_Layer: 5
   m_Name: Tile
   m_TagString: Untagged
@@ -493,3 +495,26 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2135400584}
+--- !u!122 &2135400589
+Halo:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2135400584}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278386432
+  m_Size: 100
+--- !u!114 &2135400590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2135400584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed9161d08625eb3449f045fa23104d8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  halos: {fileID: 0}
